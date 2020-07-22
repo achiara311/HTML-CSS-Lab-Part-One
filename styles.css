@@ -1,52 +1,67 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-    padding: 0;
-    margin: 0;
-    background-color: #f9fafc;  
-}
-ul {
-    list-style: none;
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-    margin: 5px;
-}
-.paragraph {
-    padding: 10px;
-    margin: 10px;
-    border-left: 3px solid #69696a;
-    height: 140px;
+  p,
+  h1,
+  h2,
+  ul,
+  body{
+      padding:0;
+      margin:0;
   }
-li {
-    padding: 5px;
-}
-.mobile-button-link {
-    background-color: #000;
-    color: #FFF;
-    width: 90vw;
+  body{
+      padding:20px;/*pulls content of body INWARDS*/
+      font-family: "Open Sans", sans-serif;
+      background-color: #f9fafc;
+  }
+
+  .heading-one{
+    font-size: 16px;
+  }
+  .company{
+    color: #000;
     text-decoration: none;
-    padding: 12px;
-    border-radius: 25px;
-    display: block;
-    text-align: center;
-}
-.header {
-    display: block;
-    position: fixed;
-    z-index: 2;
-    border: 1px;
-    border-color: teal;
-}
-.navbar_links {
-    text-decoration: none;
+  }
+  .list {
     list-style: none;
-   color:grey;
-}
-.latin-stuff{
+    /*got rid of bullet points*/
+    margin-top: 10px;
+    /*controls whitespace between words/links*/
+  }
+  .actual_links{
+    text-decoration: none;
+    /* removes underline links, 
+    use this when you're in actual a href class */
     color: #69696a;
-    font-family: 'Open Sans', sans-serif;  
-} 
+  }
+  .mobile-button-link {
+    background-color: #000;
+    padding: 10px;
+    border-radius: 20px;
+    /*gets rid of pointy borders of padding, rounds it out*/
+    text-align: center;
+    color: #fff;
+    display: block;
+    /* takes padding of button and extends it all the way across the screen */
+  }
+  .main-content {
+    margin: 35px 0;
+  }
+  .about-title {
+    color: #000;
+    font-size: 32px;
+  }
+  .latin-text {
+    border-left: 3px solid #69696a;
+    /* border-left: 3px solid #69696a; creates line on the left */
+    padding-left: 15px;
+    /* pushes out padding of latin words out to the right and makes it 
+   look formatted better */
+   color: #69696a;
+   margin-top: 20px;
+   /* makes distance away from margins of "chirpus inc." and "scroll down' button */
+  }
+    
+ 
+    
+   
 
 
 
-@media screen and (max-width: 760px) {  
-}
